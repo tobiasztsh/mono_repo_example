@@ -4,14 +4,15 @@
   "private": true,
   "dependencies": {
     "classnames": "^2.2.6",
-    "library": "../library",
-    "localization": "../localization",
+    "@tobiasz/library": "^1.0.0",
+    "@tobiasz/localization":  "^1.0.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-scripts": "2.1.1"
   },
   "scripts": {
     "start": "PORT=3001 react-scripts start",
+    "flow": "flow",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
